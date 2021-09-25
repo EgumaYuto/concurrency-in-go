@@ -17,3 +17,7 @@ func TestCloseSample(t *testing.T) {
 func TestFlashStream(t *testing.T) {
 	flashChannel()
 }
+
+func TestFlashChannelByClosing(i *testing.T) {
+	flashChannelByClosing()
+}
