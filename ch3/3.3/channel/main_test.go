@@ -18,6 +18,10 @@ func TestFlashStream(t *testing.T) {
 	flashChannel()
 }
 
-func TestFlashChannelByClosing(i *testing.T) {
+func TestFlashChannelByClosing(t *testing.T) {
 	flashChannelByClosing()
+}
+
+func TestBufferedChannels(t *testing.T) {
+	bufferedChannels()
 }
